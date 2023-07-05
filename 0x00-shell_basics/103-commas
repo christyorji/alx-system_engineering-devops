@@ -1,0 +1,2 @@
+#!/bin/bash
+(ls -a -1 | grep -E '^\.|^\.\.|/|^.*[[:digit:]]' | LC_ALL=C sort -d -k1.1
