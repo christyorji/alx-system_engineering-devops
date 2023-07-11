@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -empty -execdir basename {} \; -o -type d -empty -execdir basename {} \; -print
