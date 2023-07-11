@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -execdir basename {} \; -o -type d -empty -execdir basename {} \; -print
+find.-empty|rev|cut-d'/'-f 1|rev
